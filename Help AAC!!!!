@@ -1,0 +1,22 @@
+Please Help Me!
+java.lang.OutOfMemoryError: Java heap space
+[18:57:34 WARN]: [AAC] Task #95 for AAC v3.0.1 generated an exception
+java.lang.OutOfMemoryError: Java heap space
+        at java.util.HashMap.resize(HashMap.java:703) ~[?:1.8.0_112]
+        at java.util.HashMap.putVal(HashMap.java:662) ~[?:1.8.0_112]
+        at java.util.HashMap.put(HashMap.java:611) ~[?:1.8.0_112]
+        at java.util.HashSet.add(HashSet.java:219) ~[?:1.8.0_112]
+        at us.Myles.PWP.TransparentListeners.PerWorldPluginLoader.createRegisteredListeners(PerWorldPluginLoader.java:62) ~[?:?]
+        at org.bukkit.plugin.SimplePluginManager.registerEvents(SimplePluginManager.java:527) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
+        at me.konsolas.aac.aF.run(aF.java:19) ~[?:?]
+        at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71) ~[spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
+        at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:350) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
+        at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:723) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
+        at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
+        at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
+        at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [spigot-1.8.8.jar:git-Spigot-21fe707-e1ebe52]
+        at java.lang.Thread.run(Thread.java:745) [?:1.8.0_11]
+        
+        ProtocolLib version: 4.3.0
+        
+        Restart server the mistake happens
